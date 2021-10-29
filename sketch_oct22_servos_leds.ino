@@ -241,6 +241,7 @@ void loop() {
       lastLit3 = currentTime;
     }
     
+    
     /////////////led D
     if (currentTime - lastLit4 > 115) {
       if (proximity > 240) {
